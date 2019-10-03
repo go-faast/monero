@@ -118,8 +118,8 @@ using namespace cryptonote;
 
 #define SECOND_OUTPUT_RELATEDNESS_THRESHOLD 0.0f
 
-#define SUBADDRESS_LOOKAHEAD_MAJOR 50
-#define SUBADDRESS_LOOKAHEAD_MINOR 200
+#define SUBADDRESS_LOOKAHEAD_MAJOR 500 // We increment major for deposit address
+#define SUBADDRESS_LOOKAHEAD_MINOR 20 // Don't use minor index at all so keep this small
 
 #define KEY_IMAGE_EXPORT_FILE_MAGIC "Monero key image export\003"
 
